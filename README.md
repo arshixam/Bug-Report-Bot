@@ -3,6 +3,7 @@
 npm i discord.js
 npm i @discordjs/rest
 npm i discord-api-types
+node rej.js
 ```
 # Change 
 
