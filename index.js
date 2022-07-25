@@ -15,7 +15,7 @@ const { readdirSync } = require("fs");
 const { token , BugChannelId} = require("./config.json");
 
 
-client.login(token)
+
 
 client.commands = new Collection();
 const commandFiles = readdirSync('./cmd').filter(file => file.endsWith('.js'));
@@ -58,6 +58,10 @@ client.on("messageCreate" , (message) => {
 
 	}
 })
+
+
+
+client.login(token)
 
 /**
  * This project coded by Arshia#9402
